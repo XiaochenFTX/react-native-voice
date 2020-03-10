@@ -107,6 +107,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = DC0729AC1EF78E41004EBC83;
@@ -228,7 +229,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SYSTEM_HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/Base $(SRCROOT)/../node_modules/react-native/Libraries";
+				SYSTEM_HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/Base $(SRCROOT)/../node_modules/react-native/Libraries ${SRCROOT}/../../../ios/Pods/Headers/Public/React-Core";
 			};
 			name = Debug;
 		};
@@ -239,7 +240,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SYSTEM_HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/Base $(SRCROOT)/../node_modules/react-native/Libraries";
+				SYSTEM_HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/Base $(SRCROOT)/../node_modules/react-native/Libraries ${SRCROOT}/../../../ios/Pods/Headers/Public/React-Core";
 			};
 			name = Release;
 		};
